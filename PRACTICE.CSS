@@ -1,0 +1,16 @@
+
+h1{
+    color: green;
+    text-align: center;
+}
+body{
+    background: linear-gradient(to left, black, white);
+}
+div{
+    max-width: 340px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    background-color: rgba(25, 143, 145, 0.451);
+}
