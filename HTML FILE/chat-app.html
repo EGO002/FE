@@ -7,46 +7,60 @@
   <link rel="stylesheet" href="/CSS FILE/chat-app-style.css">
 </head>
 <body>
- <div class="chat-container">
-  <aside class="user-list">
-    <h2>users</h2>
-     <ul>
-      <li><img src="/IMAGE FILE/male image.png" alt="avater 1">Arinze</li>
-      <li><img src="/IMAGE FILE/female image.png" alt="avater 2">Ekaite</li>
-      <li><img src="/IMAGE FILE/male image.png" alt="avater 3">Usman</li>
-      <li><img src="/IMAGE FILE/female image.png" alt="avater 4">Peace</li>
-     </ul>
-  </aside>
-
-  <main class="chat-area">
-    <div class="message">
-      <span class="avater">👨</span>
-        <div class="bubble">
-          <p><strong>Arinze:</strong>Hi everyone!</p>
-          <small>10:01 am</small>
-        </div>
-    </div>
-    <div class="message">
-      <span class="avater">👩</span>
-        <div class="bubble">
-          <p><strong>Ekaite:</strong>How are you doing?</p>
-          <small>10:01 am</small>
-        </div>
-    </div>
-  </main>
-
-  <footer class="chat-input">
-    <input type="text" placeholder="Type a message...">
-    <button class="send-btn">
-      <img src="/IMAGE FILE/SEND.png" class="send" alt="send">
-    </button>
-  </footer>
- </div>  
-<label for="toggle">😊</label>
-<input type="checkbox" id="toggle" hidden>
-
-<div class="emoji-panel">
-  😀 😂 😍 🔥 🙈
+  <div class="chat-container">
+   <div class="chat-header">
+    <h2>NRC-ICT DEPARTMENT CHAT ROOM</h2>
+    <div class="icons">
+    <i class="settings">⚙️</i>
+    <img src="/IMAGE FILE/logout.png" alt="Logout" class="logout-icon" id="logoutBtn">
+  </div>
 </div>
+     <!-- User List Sidebar -->
+    <aside class="user-list">
+      <h2>Users</h2>
+      <ul>
+        <li><img src="/IMAGE FILE/male image.png" alt="avatar 1">Arinze</li>
+        <li><img src="/IMAGE FILE/female image.png" alt="avatar 2">Ekaite</li>
+        <li><img src="/IMAGE FILE/male image.png" alt="avatar 3">Usman</li>
+        <li><img src="/IMAGE FILE/female image.png" alt="avatar 4">Peace</li>
+      </ul>
+    </aside>
+
+    <!-- Main Chat Area -->
+    <main class="chat-area">
+      <!-- Messages -->
+      <div class="message">
+        <span class="avatar">👨</span>
+        <div class="bubble">
+          <p><strong>Arinze:</strong> Hi everyone!</p>
+          <small>10:01 am</small>
+        </div>
+      </div>
+      <div class="message">
+        <span class="avatar">👩</span>
+        <div class="bubble">
+          <p><strong>Ekaite:</strong> How are you doing?</p>
+          <small>10:01 am</small>
+        </div>
+      </div>
+    </main>
+
+    <!-- Chat Input Footer -->
+    <footer class="chat-input">
+      <input type="text" placeholder="Type a message...">
+      <button class="send-btn">
+        <img src="/IMAGE FILE/SEND.png" class="send" alt="send">
+      </button>
+    </footer>
+  </div>
+
+  <!-- Emoji Toggle -->
+  <label for="toggle">😊</label>
+  <input type="checkbox" id="toggle" hidden>
+
+  <div class="emoji-panel">
+    😀 😂 😍 🔥 🙈
+  </div>
+  <script src="/js file/chat-script.js"></script>
 </body>
 </html>
